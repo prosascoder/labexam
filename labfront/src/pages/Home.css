@@ -1,0 +1,41 @@
+/* Home.css */
+
+.home {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+  
+  .card {
+    background-color: #d7d0d0;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .card-title {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
